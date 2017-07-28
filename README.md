@@ -3,6 +3,9 @@
 ## Itertools
 Itertools standardises a core set of fast, memory efficient tools. Together these tools can form iter-algebra.
 
+The corresponding challenges can be found [here, at HackerRank.](https://www.hackerrank.com/domains/python/py-itertools)
+
+
 ### ItertoolsCombination.py
 An example of using combinations create print out all combinations of the input string.
 
