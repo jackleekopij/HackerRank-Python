@@ -12,6 +12,9 @@ An example where an string can be sampled with replacement and output of length 
 ### ItertoolsGroupby.py
 An example of using groupby to print out consecutive occurrences of the numbers in string to a tuple.
 
+### ItertoolsMaximize.py
+An example of using a product function coupled with use of map functions and list compreshensions.
+
 ### ItertoolsPermutation.py
 An example of using itertools to create permutations.
 

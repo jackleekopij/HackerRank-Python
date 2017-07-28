@@ -1,0 +1,17 @@
+from itertools import product
+
+# Read in first line from standard input and map to integers.
+K,M = map(int,raw_input().split())
+
+# Read in the next 'K' lines in from standard input and map each element to an integer.
+n = [map(int, raw_input().split(" ")[1:]) for _ in xrange(K)]
+
+# Use   '*'   to decouple the lists from n.
+product_tuples = list(product(*n))
+
+# Create a function that inputs a tuple, squares, sums then divides by the modulo and then returns this as an integer.
+def square_modulo(tuple):
+    return sum(x**2 for x in tuple) % M
+
+# Print the max from the list as an integer.
+print max(list(map(square_modulo, product_tuples )))
